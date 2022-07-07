@@ -1,0 +1,5 @@
+name  = input('Olá, seja bem vindo, qual o seu nome?')
+anoNasc = input('Muito bem '+name+' em qual ano você nasceu?')
+mesNasc = input(name+', em que mês você nasceu?')
+diaNasc = input('Finalmente, qual foi o dia do seu nascimento '+name+'?')
+print('Então '+name+' você nasceu em '+diaNasc+'/'+mesNasc+'/'+anoNasc+', está correto?')
