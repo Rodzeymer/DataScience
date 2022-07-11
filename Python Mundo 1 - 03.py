@@ -35,5 +35,5 @@ while repetir=='S':
     if operador== '//':
         resultado = valor1//valor2
 
-    print('A operação é {} {} {} = {}!'.format(valor1, operador, valor2, resultado))
+    print('A operação é {} {} {} = {:.3f}!'.format(valor1, operador, valor2, resultado))
     repetir = input('Quer realizar outra operação? (S/N)').capitalize()
