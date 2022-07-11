@@ -1,5 +1,6 @@
 digitado = input('Digite algo!')
 print('Foi digitado {}.'.format(digitado))
+print(type(digitado))
 
 if digitado.isalnum():
     print('O {} são letras ou números'.format(digitado))
