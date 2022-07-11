@@ -2,6 +2,7 @@
 
 numero = float(input('Digite o valor da tabuada'))
 
+
 print('{} * 1 = {:.2f}'.format(numero, numero*1))
 print('{} * 2 = {:.2f}'.format(numero, numero*2))
 print('{} * 3 = {:.2f}'.format(numero, numero*3))
