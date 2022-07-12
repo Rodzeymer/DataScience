@@ -1,10 +1,11 @@
-#Desafio catetos
+#Desafio Trigonometria
 
-from math import sqrt, pow, hypot
+from math import cos, sin, tan
 
-catetoOposto = float(input('Digite o comprimento do cateto oposto'))
-catetoAdjacente = float(input('Digite o comprimento do cateto adjacente'))
+angulo = int(input('Digite o valor de um ângulo'))
 
-hipotenusa = hypot(catetoOposto, catetoAdjacente)
+cosseno = cos(angulo)
+seno = sin(angulo)
+tangente = tan(angulo)
 
-print('Hipotenusa = {}'.format(hipotenusa))
+print('Dado o angulo {}, temos seno={:.2f}, cosseno={:.2f}, tangente={:.2f}'.format(angulo, seno, cosseno, tangente))
