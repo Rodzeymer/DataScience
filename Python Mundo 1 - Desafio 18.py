@@ -1,11 +1,13 @@
 #Desafio Trigonometria
 
-from math import cos, sin, tan
+from math import cos, sin, tan, radians
 
-angulo = int(input('Digite o valor de um ângulo'))
+anguloRad = int(input('Digite o valor de um ângulo'))
 
-cosseno = cos(angulo)
-seno = sin(angulo)
-tangente = tan(angulo)
+anguloDeg = radians(anguloRad)
 
-print('Dado o angulo {}, temos seno={:.2f}, cosseno={:.2f}, tangente={:.2f}'.format(angulo, seno, cosseno, tangente))
+cosseno = cos(anguloDeg)
+seno = sin(anguloDeg)
+tangente = tan(anguloDeg)
+
+print('Dado o angulo {}, temos seno={:.2f}, cosseno={:.2f}, tangente={:.2f}'.format(anguloRad, seno, cosseno, tangente))
