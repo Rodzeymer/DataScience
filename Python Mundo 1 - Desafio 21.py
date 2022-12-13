@@ -1,5 +1,7 @@
-import playsound
+import pygame
 
-playsound('https://www.youtube.com/watch?v=Jly9qp40rfw') 
+pygame.init()
 
-https://www.cursoemvideo.com/curso/python-3-mundo-1/aulas/usando-modulos-do-python/modulos/exercicio-21-tocando-um-mp3/
+pygame.mixer.music.load("/src/musica.mp3")
+pygame.mixer.music.play()
+pygame.event.wait()
