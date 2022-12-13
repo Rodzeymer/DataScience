@@ -26,4 +26,3 @@ elif numero >= 1000 and numero <10000:
 	
 elif numero >= 10000:
 	print('O numero {} e muito grande!'.format(numero))
->>>>>>> 974ac93eef72b732c21bef0eb318a916a34a854f
