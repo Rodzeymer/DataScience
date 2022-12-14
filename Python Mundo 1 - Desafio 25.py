@@ -1,7 +1,7 @@
 nome = input('O nome completo de uma pessoa')
-oQueProcurar = "Silva"
+oQueProcurar = "silva"
 
-procure = oQueProcurar in nome
+procure = oQueProcurar in nome.lower()
 
 if procure:
     print('Neste nome há Silva')
