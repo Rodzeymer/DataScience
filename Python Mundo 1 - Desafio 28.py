@@ -1,7 +1,6 @@
 import random
 
 numeroEscolhido = random.randint(0, 5)
-print(numeroEscolhido)
 
 palpite = int(input('Tente adivinha o número escolhido, de 0 a 5'))
 
