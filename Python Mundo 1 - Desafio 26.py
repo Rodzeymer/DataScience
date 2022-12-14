@@ -1,7 +1,7 @@
 import unicodedata
 
 
-nome = input('O nome completo de uma pessoa')
+nome = input('Escreva uma frase')
 nomeNormalize = unicodedata.normalize('NFKD', nome).encode('ASCII', 'ignore').decode('ASCII')
 nomeCaixaBaixa = nomeNormalize.lower()
 
