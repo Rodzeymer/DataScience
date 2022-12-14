@@ -2,8 +2,13 @@ import unicodedata
 
 
 nome = input('O nome completo de uma pessoa')
-nomeNormalize = unicodedata.normalize(nome)
+nomeNormalize = unicodedata.normalize('NFKD', nome).encode('ASCII', 'ignore').decode('ASCII')
+nomeCaixaBaixa = nomeNormalize.lower()
 
-print(nomeNormalize)
+quantosA = nomeCaixaBaixa.count('a') 
+quandoPrimeiroA = nomeCaixaBaixa.find('a')+1
+quandoUltimoA = nomeCaixaBaixa.rfind('a')+1
 
-https://docs.python.org/3/library/unicodedata.html
+print('A palavara {} possui {} letras A'.format(nomeCaixaBaixa, quantosA))
+print('O primeiro A de {} é a {}ª letra'.format(nomeCaixaBaixa, quandoPrimeiroA))
+print('O último A de {} é a {}ª letra'.format(nomeCaixaBaixa, quandoUltimoA))
