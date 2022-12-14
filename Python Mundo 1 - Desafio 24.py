@@ -1,7 +1,8 @@
 nomeCidade = input('Digite o nome da sua cidade')
+nomeCidadeBaixo = nomeCidade.lower()
 
-santo = "Santo"
-cidadeIniciaComSanto = nomeCidade.startswith(santo)
+santo = "santo"
+cidadeIniciaComSanto = nomeCidadeBaixo.startswith(santo)
 
 if cidadeIniciaComSanto:
     print('O nome da sua cidade começa com Santo')
