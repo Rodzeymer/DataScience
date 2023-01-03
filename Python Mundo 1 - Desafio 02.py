@@ -1,4 +1,4 @@
-# Nest desafio o programa irá perguntar o nome, dia, mês e ano de nascimento e entregar 
+# Neste desafio o programa irá perguntar o nome, dia, mês e ano de nascimento e entregar 
 # a data formatada em dd/mm/aaaa, perguntando, de forma retórica se está correto
 
 print('*' *30)
