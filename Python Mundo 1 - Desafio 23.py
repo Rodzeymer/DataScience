@@ -1,3 +1,13 @@
+# Manipular um número possui duas formas, tratar com fórmulas matemáticas e operadores, 
+# que economiza muito código, ou transformar em string, 'parseando' (str()) para string,
+# o que nesse caso ocupa muitas linhas, e tratando como número facilita muito.
+# Aqui demonstramos o poder da MateMágica, em poucas linhas conseguimos desmembrar um número
+# em milhar, centena, dezena e unidade, dá pra fazer como string, mas demora muito e 
+# é mais complicado, mas vale a experiência
+
+print('*' *30)
+print(f"{'Python Mundo 1 - Desafio 23':^30}")
+print('*' *30)
 numero = int(input("Digite um numero de 1 a 9999"))
 
 ### MÉTODO EM INTEGER ###
@@ -6,10 +16,7 @@ dezena = numero // 10 % 10
 centena = numero // 100 %10
 milhar = numero // 1000 %10
 
-print('{} milhar, {} centena, {} dezenas, {} unidades'.format(milhar, centena, dezena, unidade))
-
-
-
+print('{} milhar, {} centenas, {} dezenas, {} unidades'.format(milhar, centena, dezena, unidade))
 
 ### MÉTODO EM STRING ###
 # if numero <10:
@@ -38,3 +45,6 @@ print('{} milhar, {} centena, {} dezenas, {} unidades'.format(milhar, centena, d
 	
 # elif numero >= 10000:
 # 	print('O numero {} e muito grande!'.format(numero))
+print('*' *30)
+print(f"{'FIM':^30}")
+print('*' *30)
