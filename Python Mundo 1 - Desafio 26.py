@@ -1,4 +1,4 @@
-# Neste último desafio do Mundo 1 um verdadeiro Boss, em que dada string fornecida pelo usuário
+# Neste desafio do Mundo 1 um verdadeiro Boss, em que dada string fornecida pelo usuário
 # o programa deve retirar as acentuações e localizar todos os 'a' temos na frase, localizar
 # a primeira e a última letra A
 
